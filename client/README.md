@@ -79,19 +79,3 @@ SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=<tuo-account@gmail.com>
 SMTP_PASS=app-password-dedicata
-
-1. Installazione e Avvio Locale
-Step A: Backend Setup
-cd server
-npm install
-npm run dev
-
-Il server REST sarà attivo su <http://localhost:5000>.
-
-Step B: Frontend Setup
-In un nuovo terminale:
-cd client
-npm install
-npm run dev
-
-L'applicazione web React sarà disponibile su <http://localhost:5173>.
